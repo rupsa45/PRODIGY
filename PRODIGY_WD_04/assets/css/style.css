@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/*navbar*/
+#nav{
+    position: sticky;
+    top:0;
+    z-index: 1001;
+}
+.navbar{
+    background-image: linear-gradient(to right,#1ea6ec,#2c92fb);
+}
+.navbar-brand span{
+    font-weight: bolder;
+    color: #fff;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nav-link{
+    transition: all 0.2s;
+    position: relative;
+}
+.nav-link::after{
+    content: '';
+    opacity: 0;
+    transition: all 0.2s;
+    height: 3px;
+    width: 100%;
+    background-color:#000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.nav-link:hover::after{
+    opacity: 1;
+}
+/* banner */
+#banner{
+    position: relative;
+    background-image: linear-gradient(to right,#1ea6ec,#2c92fb);
+    color: #fff;
+    padding: 7%;
+}
+.title{
+    font-weight: bolder;
+    margin-top: 80px;
+}
+.ban-img{
+    position: relative;
+    z-index: 1000;
+}
+.wave{
+    position: absolute;
+    bottom:-10%;
+    left: 0;
+}
+/* about */
+#about
+{
+    padding: 150px 0;
+}
+.about img{
+    margin-top: 40px; 
+}
+.about__text{
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* features */
+#features{
+    padding: 150px 0;
+}
+.features{
+    padding: 20px;
+}
+.features img{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+.features h5{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+#skills{
+    padding: 80px 0;
+}
+
+.skills{
+    padding: 30px; 
+}
+
+  /* contact */
+  #contact{
+    padding: 80px 0;
+  }
+ .contact{
+    margin-top: 5%;
+ }
+ .contact .btn{
+    border-radius: 20px;
+ }
+ #footer{
+    padding: 20px 0;
+    background-image: linear-gradient(to right,#1ea6ec,#2c92fb);
+    color: #fff;
+ }
+ .footer__icon i{
+    font-size: 1.5rem;
+    color: #fff; 
+    margin: 0 10px
+ }

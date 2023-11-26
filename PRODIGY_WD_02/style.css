@@ -1,0 +1,29 @@
+body{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+.timeBtn{
+    height: 40px;
+    width: 80px;
+    background-color: #4834d4;
+    border:2px solid white; 
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#timeDisplay{
+    font-size: 75px;
+    color: #686de0;
+    margin-top:25px;
+}
+#timeContainer{
+    text-align: center;
+    height: 200px;
+    width: 400px;
+    border:2px solid #70a1ff;
+    background-color: #000;
+    border-radius: 25px;
+}
